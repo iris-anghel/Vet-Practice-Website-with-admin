@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Serif');
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #3B3D42;
+}
+
+a.footer-link:link {
+    text-decoration: none;
+    color: #cc7504;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #3B3D42;
+}
+
+a.footer-link:visited {
+    text-decoration: none;
+    color: #cc7504;
+}
+
+a:hover {
+    color: #f49416;
+}
+
+hr.orange-hr {
+    width: 50px;
+    border-width: 5px;
+    border-color: #FFA81D;
+}
+
+hr.black-hr {
+    width: 50px;
+    border-width: 5px;
+    border-color: #3B3D42;
+}
+
+hr#home-page-about {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.allButtons {
+/*    background-color: rgba(249, 249, 249, 0.7);*/
+    background-color: #efefef;
+    border: 1px solid #d1cfcf;
+}
+
+.allButtons:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    background-color: #e5e5e5;
+}
+
+
+/* ----- navbar ----- */
+
+nav.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    margin: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #E9E9E9;
+    background: #FFA81D;
+}
+
+.active-nav {
+    background: #FFA81D;
+}
+
+
+/* ------ home page ------ */
+
+.jumbotron {
+    padding: 15%;
+    background: linear-gradient(to bottom, rgba(38, 38, 38, 0.2) 0%, rgba(38, 38, 38, 0.8) 100%), url("../img/dog-close-up.jpeg") bottom center;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.jumbotron-text {
+    font-weight: bold;
+    color: #E9E9E9;
+    position: relative;
+    top: -50px;
+    left: -100px;
+    display: none;
+}
+
+.jumbotron-text h1 {
+    font-size: 72px;
+}
+
+.about-excerpt {
+    background-color: #FFA81D;
+    padding: 30px;
+}
+.about-excerpt img {
+    margin: 0 auto;
+}
+
+.centered-single-items {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#homepage-team {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.home-page-row {
+    text-align: center;
+    padding: 30px;
+}
+
+.home-item {
+    padding: 20px;
+}
+
+.team-row {
+    background-color: #3B3D42;
+    color: #E9E9E9;
+}
+
+a#services-home-button {
+    margin: 20px auto;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ---- about page --- */
+
+#about-us {
+    padding: 40px;
+}
+
+#about-page-title {
+    margin-bottom: 60px;
+}
+
+#about-us img {
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+#about-us p {
+    text-indent: 40px;
+}
+
+.featurette {
+    padding: 3%;
+}
+
+.featurette-divider {
+    margin: 10px 0;
+}
+
+.featurette-image {
+    margin-top: 20px;
+}
+
+blockquote {
+    margin-top: 30px;
+}
+
+#featurette-andreea {
+    margin-bottom: 40px;
+}
+
+/* --- services---- */
+
+#accordion {
+    margin: auto 5%;
+}
+
+.panel-heading img {
+    width: 10%;
+    margin: auto 10px;
+}
+
+#panel-consultatii {
+    margin-top: 50px;
+}
+
+#panel-petshop {
+    margin-bottom: 60px;
+}
+
+#services-page-text {
+    margin-top: 50px;
+}
+
+/*  ---  resources  ---  */
+
+
+
+
+/* -------- login ------- */
+
+
+#sign-in-form {
+    background-color: #E5E5E5;
+    padding: 10%;
+}
+
+
+/* ---- footer ----- */
+
+.footer1 {
+    padding: 5%;
+    background-color: #3B3D42;
+    color: #efefef;
+}
+
+.footer-col {
+    padding: 5%;
+}
+
+#iframe-container {
+    padding: 0;
+}
+
+
+/*   ---- scroll button ---- */
+
+#scroll-button {
+	width: 40px;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	background: rgba(7, 7, 7, 0.3);
+	font-weight: bold;
+	color: #ecf0f1;
+	position: fixed;
+	bottom: 25px;
+	right: 20px;
+	display: none;
+}
+
+#scroll-button:hover {
+    color: #FFA81D;
+}
+
+
+/*  --- add new patient and  owner forms --- */
+
+
+
+
+/*  ----  list table ----  */
+
+
+#pet-search-modal, #owner-search-modal {
+    padding-top: 30px;
+}
+
+#pets-table, #owners-table {
+    padding: 20px;
+}
+
+.list-buttons {
+    border-color: #3d0493;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-buttons:hover {
+    color: #E9E9E9;
+    background-color: #3d0493;
+}
+
+/*  ------- media queries -------- */
+
+
+
+/*add styled 404 */
+/*add vendor prefixes*/
+/*meta tags*/
+/*add some interactivity to the page*/
+/*solve iframe API  */
+
+
+
+
+
