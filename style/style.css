@@ -54,9 +54,14 @@ hr#home-page-about {
 }
 
 .allButtons {
-/*    background-color: rgba(249, 249, 249, 0.7);*/
     background-color: #efefef;
     border: 1px solid #d1cfcf;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+    background-image: -webkit-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: -moz-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: -ms-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: -o-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: linear-gradient(to bottom, #f4f5f5, #dfdddd);
 }
 
 .allButtons:hover {
@@ -156,6 +161,10 @@ a#services-home-button {
 
 #about-us {
     padding: 40px;
+/*
+    background: linear-gradient(to bottom, rgba(38, 38, 38, 0.1) 0%, rgba(38, 38, 38, 0.1) 100%), url("../img/pexels-photo-lg.jpg") left center;
+    background-size: cover;
+*/
 }
 
 #about-page-title {
@@ -219,7 +228,9 @@ blockquote {
 
 /*  ---  resources  ---  */
 
-
+#blog-wrapper {
+    margin-bottom: 30px;
+}
 
 
 /* -------- login ------- */
@@ -247,32 +258,33 @@ blockquote {
     padding: 0;
 }
 
+/* ----- vet practise management ------ */
 
-/*   ---- scroll button ---- */
-
-#scroll-button {
-	width: 40px;
-	height: 40px;
-	padding-top: 10px;
-	text-align: center;
-	background: rgba(7, 7, 7, 0.3);
-	font-weight: bold;
-	color: #ecf0f1;
-	position: fixed;
-	bottom: 25px;
-	right: 20px;
-	display: none;
+.management-body {
+    padding-top: 110px;
 }
 
-#scroll-button:hover {
-    color: #FFA81D;
+.management-button {
+    border:1px solid #FFB726;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFC31F), to(#FFA81D));
+     background-image: -webkit-linear-gradient(top, #FFC31F, #FFA81D);
+     background-image: -moz-linear-gradient(top, #FFC31F, #FFA81D);
+     background-image: -ms-linear-gradient(top, #FFC31F, #FFA81D);
+     background-image: -o-linear-gradient(top, #FFC31F, #FFA81D);
+     background-image: linear-gradient(to bottom, #FFC31F, #FFA81D);
 }
 
+.management-button:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    background-color: #FFAF24;
+}
 
 /*  --- add new patient and  owner forms --- */
 
-
-
+p.navbar-text {
+    margin: 20px 0 0 0;
+}
 
 /*  ----  list table ----  */
 
@@ -296,6 +308,28 @@ blockquote {
     color: #E9E9E9;
     background-color: #3d0493;
 }
+
+/*   ---- scroll button ---- */
+
+#scroll-button {
+	width: 40px;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	background: rgba(7, 7, 7, 0.3);
+	font-weight: bold;
+	color: #ecf0f1;
+	position: fixed;
+	bottom: 25px;
+	right: 20px;
+	display: none;
+}
+
+#scroll-button:hover {
+    color: #FFA81D;
+}
+
+
 
 /*  ------- media queries -------- */
 

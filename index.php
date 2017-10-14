@@ -30,17 +30,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="pet-love-logo" href="index.html">
+                <a class="navbar-brand" id="pet-love-logo" href="index.php">
                     <img src="#" height="80" alt="logo">
                 </a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" class="active-nav">Acasa</a></li>
-                    <li><a href="about.html">Despre noi</a></li>
-                    <li><a href="services.html">Servicii</a></li>
-                    <li><a href="resources.html">Articole</a></li>
+                    <li><a href="index.php" class="active-nav">Acasa</a></li>
+                    <li><a href="about.php">Despre noi</a></li>
+                    <li><a href="services.php">Servicii</a></li>
+                    <li><a href="resources.php">Articole</a></li>
                     <li><a href="#footer1" class="book-now">Contact</a></li>
                     <li><a href="login.php">Login</a></li>
                 </ul>
@@ -52,7 +52,7 @@
         <div class="container jumbotron-text">
             <h1>Pet Love Vet</h1>
             <p class="lead">Prietenul tau in grija noastra</p>
-            <p><a class="btn btn-default allButtons" href="about.html" role="button">Mai multe &raquo;</a> <a class="btn btn-default allButtons book-now" href="#footer1" role="button">Contact</a></p>
+            <p><a class="btn btn-default allButtons" href="about.php" role="button">Mai multe &raquo;</a> <a class="btn btn-default allButtons book-now" href="#footer1" role="button">Contact</a></p>
         </div>
     </div>
 
@@ -67,7 +67,7 @@
                 <hr class="black-hr" id="home-page-about">
                 <p><em>Facem diferenta la Pet Love Vet</em></p>
                 <p>La Pet Love Vet credem ca fiecare posesor al unui animal de companie trebuie sa beneficieze de cele mai bune servicii. Veterinarii nostri sunt formati pentru a avea grija de orice animal de companie, de la pui la senior. Cabinetul veterinar Pet Love Vet este echipat pentru toate nevoile, de la medicina preventiva, nutritie, analize de laborator, la tratamente si interventii chirurgicale.</p>
-                <p><a class="btn btn-default allButtons" href="about.html#about-us" role="button">Mai multe &raquo;</a></p>
+                <p><a class="btn btn-default allButtons" href="about.php#about-us" role="button">Mai multe &raquo;</a></p>
             </div>
 
         </div>
@@ -88,13 +88,13 @@
                 <img class="img-circle" src="img/007-medical-4.png" alt="stethoscope" width="140" height="140">
                 <h4>Consultatii si investigatii</h4>
                 <p>La Pet Love Vet, fiecare pacient este tratat cu grija. Realizam o anamneza detaliata si luam decizii bazate pe analize de laborator si dovezi stiintifice.</p>
-                <p><a href="services.html#panel-consultatii">Detalii &raquo;</a></p>
+                <p><a href="services.php#panel-consultatii">Detalii &raquo;</a></p>
             </div>
             <div class="col-md-3 col-sm-6 home-item">
                 <img class="img-circle" src="img/008-medical-3.png" alt="medicine bottle" width="140" height="140">
                 <h4>Tratamente si chirugie</h4>
                 <p>In urma consultatiei si diagnosticului, animalelor li se va oferi cel mai bun tratament, mereu personalizat pentru caracteristicile specifice rasei si nevoilor individuale.</p>
-                <p><a href="services.html#panel-tratamente">Detalii &raquo;</a></p>
+                <p><a href="services.php#panel-tratamente">Detalii &raquo;</a></p>
             </div>
             <div class="col-md-3 col-sm-6 home-item">
                 <img class="img-circle" src="img/003-medical-8.png" alt="hands holding a heart" width="140" height="140">
@@ -106,13 +106,13 @@
                 <img class="img-circle" src="img/hairdresser.png" alt="scissors and comb" width="140" height="140">
                 <h4>Toaletaj canin</h4>
                 <p>Animalele sunt mai fericite si mai sanatoase atunci cand sunt curate, tunse si aranjate. De aceea, folosim produsele cele mai bune de pe piata, pentru toate tipurile de blana si piele.</p>
-                <p><a href="services.html#panel-toaletaj">Detalii &raquo;</a></p>
+                <p><a href="services.php#panel-toaletaj">Detalii &raquo;</a></p>
             </div>
         </div>
 
         <div class="row centered-single-items">
             <div class="col-sm-12">
-                <p><a class="btn btn-default align-center allButtons" href="services.html" id="services-home-button" role="button">Vezi toate serviciile &raquo;</a></p>
+                <p><a class="btn btn-default align-center allButtons" href="services.php" id="services-home-button" role="button">Vezi toate serviciile &raquo;</a></p>
             </div>
         </div>
 
@@ -130,21 +130,21 @@
                 <h4>Denisa Soncodi</h4>
                 <hr class="orange-hr">
                 <p>medic veterinar</p>
-                <p><a class="footer-link" href="about.html#featurette-denisa">Detalii &raquo;</a></p>
+                <p><a class="footer-link" href="about.php#featurette-denisa">Detalii &raquo;</a></p>
             </div>
             <div class="col-sm-4 home-item">
                 <img class="img-circle" src="img/007-animal.png" alt="vet photo" width="140" height="140">
                 <h4>Paula Pop</h4>
                 <hr class="orange-hr">
                 <p>medic veterinar</p>
-                <p><a class="footer-link" href="about.html#featurette-paula">Detalii &raquo;</a></p>
+                <p><a class="footer-link" href="about.php#featurette-paula">Detalii &raquo;</a></p>
             </div>
             <div class="col-sm-4 home-item">
                 <img class="img-circle" src="img/007-animal.png" alt="vet photo" width="140" height="140">
                 <h4>Andreea Lup</h4>
                 <hr class="orange-hr">
                 <p>groomer</p>
-                <p><a class="footer-link" href="about.html#featurette-andreea">Detalii &raquo;</a></p>
+                <p><a class="footer-link" href="about.php#featurette-andreea">Detalii &raquo;</a></p>
             </div>
         </div>
 
@@ -160,48 +160,6 @@
 
     </div>
 
-    <footer class="container-fluid" id="footer1">
-        <div class="row footer1">
-            <div class="col-sm-4 footer-col">
-                <p><a class="footer-link" href="index.html">
-                    <img src="#" height="80" alt="logo">
-                </a></p>
-                <p>Lorem ipsum lorem ipsum lorem ipsum</p>
-                <p>Urmariti-ne pe: <a href="https://www.facebook.com/cabinetveterinarpetlovevet"><img src="img/facebook.png"></a></p>
-            </div>
-
-            <div class="col-sm-4 footer-col">
-                <p><span class="glyphicon glyphicon-time"></span> Luni - Vineri: 10-20, Sambata: 10-14</p>
-                <p><span class="glyphicon glyphicon-phone"></span> 0745112113 si 0751556996</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Strada Pietrosul, nr. 9, Bistrita, BN</p>
-                <p><span class="glyphicon glyphicon-link"></span><a class="footer-link" href="#"> www.petlovevet.ro</a></p>
-                <p><span class="glyphicon glyphicon-envelope"></span><a class="footer-link" href="mailto:info@xxx.gmail">  info@xxx.gmail</a></p>
-
-<!--                <p class="text-muted">Lovely icons provided by<a href="https://www.flaticon.com"> Flaticon</a></p>-->
-            </div>
-
-            <div class="col-sm-4 footer-col">
-                <ul>
-                    <li><a class="footer-link" href="index.html">Acasa</a></li>
-                    <li><a class="footer-link" href="about.html">Despre noi</a></li>
-                    <li><a class="footer-link" href="services.html">Servicii</a></li>
-                    <li><a class="footer-link" href="resources.html">Articole</a></li>
-                    <li><a class="footer-link" href="login.php">Login</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12" id="iframe-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.4880559491066!2d24.479566615216132!3d47.12870357915591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4749f6f96b1da469%3A0xac45d3208563ee46!2sStrada+Pietrosul%2C+Bistri%C8%9Ba!5e0!3m2!1sro!2sro!4v1502561515039" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </footer>
-    <a href=# id="scroll-button"><span class="glyphicon glyphicon-chevron-up"></span></a>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+    <?php
+    include('footer.php');
+    ?>

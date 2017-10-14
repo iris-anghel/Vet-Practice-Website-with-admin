@@ -28,16 +28,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="pet-love-logo" href="index.html">
+                <a class="navbar-brand" id="pet-love-logo" href="index.php">
                     <img src="#" height="80" alt="logo">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" >Acasa</a></li>
-                    <li><a href="about.html">Despre noi</a></li>
-                    <li><a href="services.html">Servicii</a></li>
-                    <li><a href="resources.html" class="active-nav">Articole</a></li>
+                    <li><a href="index.php" >Acasa</a></li>
+                    <li><a href="about.php">Despre noi</a></li>
+                    <li><a href="services.php">Servicii</a></li>
+                    <li><a href="resources.php" class="active-nav">Articole</a></li>
                     <li><a href="#footer1" class="book-now">Contact</a></li>
                     <li><a href="login.php">Login</a></li>
                 </ul>
@@ -99,7 +99,7 @@
                 <p>Dupa castrare/sterilizare exista riscul ca animalul dumneavoastra sa ia in greutate, insa puteti tine acest lucru sub control, oferindu-i o cantitate echilibrata de mancare. De asemenea, daca medicul veterinar va recomanda o dieta, ar fi bine sa o urmati, pentru a elimina riscul aparitiei unor boli la inima.</p>
                 <hr>
                 <p>Pentru a va oferi si mai multe informatii despre castrarea/sterilizarea cainilor va asteptam la cabinetul veterinar Pet Love Vet!</p>
-                <p><a class="btn btn-default allButtons" href="resources.html" role="button">&larr; Inapoi</a></p>
+                <p><a class="btn btn-default allButtons" href="resources.php" role="button">&larr; Inapoi</a></p>
              </div>
          </div><!-- /.row -->
     </div><!-- /.container -->
@@ -117,44 +117,6 @@
         </div>
     </div>
 
-    <footer class="container-fluid" id="footer1"><!--   footer   -->
-        <div class="row footer1">
-            <div class="col-sm-4 footer-col">
-                <p><a href="index.html">
-                    <img src="#" height="80" alt="logo">
-                </a></p>
-                <p>Lorem ipsum lorem ipsum lorem ipsum</p>
-                <p>Urmariti-ne pe: <a href="https://www.facebook.com/cabinetveterinarpetlovevet"><img src="img/facebook.png"></a></p>
-            </div>
-            <div class="col-sm-4 footer-col">
-                <p><span class="glyphicon glyphicon-time"></span> Luni - Vineri: 10-20, Sambata: 10-14</p>
-                <p><span class="glyphicon glyphicon-phone"></span> 0745112113 si 0751556996</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Strada Pietrosul, nr. 9, Bistrita, BN</p>
-                <p><span class="glyphicon glyphicon-link"></span><a href="#"> www.petlovevet.ro</a></p>
-                <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:info@xxx.gmail">  info@xxx.gmail</a></p>
-            </div>
-            <div class="col-sm-4 footer-col">
-                <ul>
-                    <li><a href="index.html">Acasa</a></li>
-                    <li><a href="about.html">Despre noi</a></li>
-                    <li><a href="services.html">Servicii</a></li>
-                    <li><a href="resources.html">Articole</a></li>
-                    <li><a href="login.php">Login</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12" id="iframe-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.4880559491066!2d24.479566615216132!3d47.12870357915591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4749f6f96b1da469%3A0xac45d3208563ee46!2sStrada+Pietrosul%2C+Bistri%C8%9Ba!5e0!3m2!1sro!2sro!4v1502561515039" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </footer>
-    <a href=# id="scroll-button"><span class="glyphicon glyphicon-arrow-up"></span></a>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-    </script>
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+    <?php
+    include('footer.php');
+    ?>

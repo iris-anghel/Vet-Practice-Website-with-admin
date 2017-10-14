@@ -2,25 +2,21 @@
 session_start();
 
 include('includes/functions.php');
-require_once('includes/connection.php');
+include('includes/connection.php');
 
 // if login form was submitted
 if( isset( $_POST['login'] ) ) {
 
-    $formEmail = validateFormData( $_POST['email'] );
+    $formUsername = validateFormData( $_POST['username'] );
     $formPass = validateFormData( $_POST['password'] );
 
-//    require_once('includes/connection.php');
-
-    $query = "SELECT username, password FROM vets WHERE email='$formEmail'";
+    $query = "SELECT username, password FROM vets WHERE username='$formUsername'";
 
     $result = mysqli_query( $conn, $query );
 
-    //$rowcount=mysqli_num_rows($result);
-    var_dump($rowcount);
+    $rowcount = mysqli_num_rows($result);
 
-    //if($rowcount > 0 ) {
-    if(true ) {
+    if($rowcount > 0 ) {
 
         // store basic user data in variables
         while( $row = mysqli_fetch_assoc($result) ) {
@@ -34,12 +30,10 @@ if( isset( $_POST['login'] ) ) {
             // correct login details - store data in SESSION variables
             $_SESSION['loggedInUser'] = $name;
 
-            // redirect user to clients page
             header( "Location: clients.php" );
-        } else { // hashed password didn't verify
+        } else {
 
-            // error message
-            $loginError = "<div class='alert alert-danger'>Username sau parola gresita</div>";
+            $loginError = "<div class='alert alert-danger'>Utilizator sau parola gresita</div>";
         }
 
     } else { // there are no results in database
@@ -48,11 +42,8 @@ if( isset( $_POST['login'] ) ) {
     }
 
 }
-// var_dump($conn); // is NULL
 
 mysqli_close($conn);
-// Undefined variable: conn
-//mysqli_close() expects parameter 1 to be mysqli, null given
 
 //$password = password_hash("denisa", PASSWORD_DEFAULT);
 //echo $password;
@@ -84,8 +75,6 @@ mysqli_close($conn);
 
     <body>
 
-<!--        css          -->
-
         <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
@@ -95,16 +84,16 @@ mysqli_close($conn);
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="pet-love-logo" href="index.html">
+                <a class="navbar-brand" id="pet-love-logo" href="index.php">
                     <img src="#" height="80" alt="logo">
                 </a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" >Acasa</a></li>
-                    <li><a href="services.html">Servicii</a></li>
-                    <li><a href="resources.html">Articole</a></li>
+                    <li><a href="index.php" >Acasa</a></li>
+                    <li><a href="services.php">Servicii</a></li>
+                    <li><a href="resources.php">Articole</a></li>
                     <li><a href="#footer1">Contact</a></li>
                     <li><a href="login.php" class="active-nav">Login <i class="fa fa-sign-in"></i></a></li>
                 </ul>
@@ -112,58 +101,9 @@ mysqli_close($conn);
         </div>
     </nav><!--   end nav  -->
 
-<!--
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-
-        <div class="container-fluid">
-
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="clients.php">Gestiune Pet Love Vet</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="navbar-collapse">
-
-                <?php
-//                if( $_SESSION['loggedInUser'] ) {
-                ?>
-                <ul class="nav navbar-nav">
-                    <li><a href="pets.php"><i class="fa fa-paw"></i> Animale de companie</a></li>
-                    <li><a href="add_pet.php"><i class="fa fa-plus"></i> Adauga pacient</a></li>
-                    <li><a href="clients.php"><i class="fa fa-address-book"></i> Proprietari</a></li>
-                    <li><a href="add.php"><i class="fa fa-plus"></i> Adauga proprietar</a></li>
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <p class="navbar-text">Bine ai venit!</p>
-
-                    <li><a href="logout.php">Iesi din cont <i class="fa fa-sign-out"></i></a></li>
-                </ul>
-                <?php
-//                } else {
-                ?>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="login.php">Intra in cont <i class="fa fa-sign-in"></i></a></li>
-                </ul>
-                <?php
-//                }
-                ?>
-
-            </div>
-
-        </div>
-
-    </nav>
--->
-
     <div class="container-fluid">
 
-        <h1>Gestiune Pet Love Vet</h1>
+        <h1>Gestiune <strong>Pet Love Vet</strong></h1>
         <?php if(isset($loginError)) {echo $loginError;} ?>
         <div class="row">
             <div class="col-md-6" id="sign-in-form-wrapper">
@@ -173,8 +113,8 @@ mysqli_close($conn);
 
                         <div class="form-group input-group">
                             <span class="input-group-addon"><i class="fa fa-user-circle-o"></i></span>
-                            <label for="login-email" class="sr-only">Email</label>
-                            <input type="text" class="form-control" name="email" id="login-email" placeholder="Email" required>
+                            <label for="login-username" class="sr-only">Nume utilizator</label>
+                            <input type="text" class="form-control" name="username" id="login-username" placeholder="Utilizator" required>
                         </div>
                         <div class="form-group input-group">
                             <span class="input-group-addon"><i class="fa fa-key"></i></span>
@@ -182,14 +122,14 @@ mysqli_close($conn);
                             <input type="password" class="form-control" name="password" id="login-password" placeholder="Parola" required>
                         </div>
 
-                        <button type="submit" class="btn btn-block btn-warning" name="login" id="login">Intra in cont</button>
+                        <button type="submit" class="btn btn-block management-button" name="login" id="login">Intra in cont</button>
                     </form>
 
                 </div>
             </div>
         </div>
 
-    </div><!-- end .container-fluid -->
+    </div><!-- /.container-fluid -->
 
     <footer class="text-center">
         <hr>
