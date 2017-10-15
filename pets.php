@@ -10,7 +10,15 @@ if( !$_SESSION['loggedInUser'] ) {
 include('includes/connection.php');
 
 // query & result
+                            // PROBLEM????
+        //is the problem here??? if the foreign key works, selecting * from pet_info is supposed to list the owner ID
+        //do I have to join the owner_info table???????
+
+//which one?
 $query = "SELECT * FROM pet_info";
+$query = "SELECT * FROM pet_info JOIN owner_info WHERE pet_info.id_owner = owner_info.id";
+
+
 $result = mysqli_query( $conn, $query );
 
 // check for query string

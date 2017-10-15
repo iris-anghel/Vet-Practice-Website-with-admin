@@ -28,11 +28,16 @@ if( isset( $_POST['add_p'] ) ) {
     $obs        = validateFormData( $_POST["obs"] );
 
     // if required fields have data
-    if( $petName && $petDob && $petSpecies && $gender && $petBreed && $cipData && $steryl && $passport ) {
+    if( $petName && $petDob && $petSpecies && $gender && $petBreed && $steryl ) {
 
         // create query
         $query = "INSERT INTO pet_info (id, pet_name, pet_dob, pet_species, gender, pet_breed, cip_data, steryl, pet_pass, obs) VALUES (NULL, '$petName', '$petDob', '$petSpecies', '$gender', '$petBreed', '$cipData', '$steryl', '$passport', '$obs')";
-//  how to insert owner id????
+
+                                // PROBLEM HERE  ????
+
+//  owner id is not part of the form .. and it is not inserted into the db because of the foreign key constraint
+// so id_owner must be what??? last_insert_id()?
+  // $id_owner = ($_GET["something"]); ?????????????????
 
         $result = mysqli_query( $conn, $query );
 
@@ -86,9 +91,9 @@ include('header.php');
                 </div>
             </div>
             <div class="form-group">
-                <label for="cip-data" class="col-sm-3 control-label">Date microcip *</label>
+                <label for="cip-data" class="col-sm-3 control-label">Date microcip</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="cip-data" name="cipData" value="" required>
+                    <input type="text" class="form-control" id="cip-data" name="cipData" value="">
                 </div>
             </div>
             <div class="form-group">
@@ -99,9 +104,9 @@ include('header.php');
                 </div>
             </div>
             <div class="form-group">
-                <label for="passport" class="col-sm-3 control-label">Carnet de sanatate *</label>
+                <label for="passport" class="col-sm-3 control-label">Carnet de sanatate</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="passport" name="passport" value="" required>
+                    <input type="text" class="form-control" id="passport" name="passport" value="">
                 </div>
             </div>
             <div class="form-group">

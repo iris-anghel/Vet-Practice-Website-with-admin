@@ -29,7 +29,7 @@ if( mysqli_num_rows($result) > 0 ) {
         $clientEmail    = $row['owner_email'];
     }
 } else { // no results returned
-    $alertMessage = "<div class='alert alert-warning'>Nothing to see here. <a href='clients.php'>Head back</a>.</div>";
+    $alertMessage = "<div class='alert alert-warning'>Nu exista date.</div>";
 }
 
 if( isset($_POST['update']) ) {

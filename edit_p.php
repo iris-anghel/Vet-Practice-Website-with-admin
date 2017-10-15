@@ -15,8 +15,8 @@ include('includes/connection.php');
 include('includes/functions.php');
 
 // query the database with client ID
-$query = "SELECT * FROM pet_info WHERE id='$petID'";  // si ceva cu fk
-// "SELECT * FROM pet_info JOIN owner_info WHERE pet_info.owner_id = owner_info.owner_id";
+$query = "SELECT * FROM pet_info WHERE id='$petID'";
+// "SELECT * FROM pet_info JOIN owner_info WHERE pet_info.owner_id = owner_info.owner_id"; ??????
 
 $result = mysqli_query( $conn, $query );
 
@@ -32,7 +32,6 @@ if( mysqli_num_rows($result) > 0 ) {
         $cipData       = $row['cip_data'];
         $steryl        = $row['steryl'];
         $passport      = $row['pet_pass'];
-                                    // id-ul owner ?????????
         $obs           = $row['obs'];
     }
 } else { // no results returned
@@ -147,9 +146,9 @@ include('header.php');
                 </div>
             </div>
             <div class="form-group">
-                <label for="cip-data" class="col-sm-3 control-label">Date microcip *</label>
+                <label for="cip-data" class="col-sm-3 control-label">Date microcip</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="cip-data" name="cipData" value="<?php echo $cipData; ?>" required>
+                    <input type="text" class="form-control" id="cip-data" name="cipData" value="<?php echo $cipData; ?>">
                 </div>
             </div>
             <div class="form-group">
@@ -160,9 +159,9 @@ include('header.php');
                 </div>
             </div>
             <div class="form-group">
-                <label for="passport" class="col-sm-3 control-label">Carnet de sanatate *</label>
+                <label for="passport" class="col-sm-3 control-label">Carnet de sanatate</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="passport" name="passport" value="<?php echo $passport; ?>" required>
+                    <input type="text" class="form-control" id="passport" name="passport" value="<?php echo $passport; ?>">
                 </div>
             </div>
             <div class="form-group">
