@@ -65,10 +65,11 @@ hr#home-page-about {
 }
 
 .allButtons:hover {
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
     background-color: #e5e5e5;
 }
-
 
 /* ----- navbar ----- */
 
@@ -91,6 +92,17 @@ nav.navbar {
     background: #FFA81D;
 }
 
+.navbar .navbar-brand {
+    padding-top: 5px;
+}
+
+.navbar .navbar-brand img {
+    height: 60px;
+}
+
+#manage-brand {
+    padding-top: 20px;
+}
 
 /* ------ home page ------ */
 
@@ -156,15 +168,10 @@ a#services-home-button {
     align-items: center;
 }
 
-
 /* ---- about page --- */
 
 #about-us {
     padding: 40px;
-/*
-    background: linear-gradient(to bottom, rgba(38, 38, 38, 0.1) 0%, rgba(38, 38, 38, 0.1) 100%), url("../img/pexels-photo-lg.jpg") left center;
-    background-size: cover;
-*/
 }
 
 #about-page-title {
@@ -189,10 +196,6 @@ a#services-home-button {
 
 .featurette-divider {
     margin: 10px 0;
-}
-
-.featurette-image {
-    margin-top: 20px;
 }
 
 blockquote {
@@ -232,15 +235,12 @@ blockquote {
     margin-bottom: 30px;
 }
 
-
 /* -------- login ------- */
 
 
 #sign-in-form {
-    background-color: #E5E5E5;
     padding: 10%;
 }
-
 
 /* ---- footer ----- */
 
@@ -267,20 +267,21 @@ blockquote {
 .management-button {
     border:1px solid #FFB726;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFC31F), to(#FFA81D));
-     background-image: -webkit-linear-gradient(top, #FFC31F, #FFA81D);
-     background-image: -moz-linear-gradient(top, #FFC31F, #FFA81D);
-     background-image: -ms-linear-gradient(top, #FFC31F, #FFA81D);
-     background-image: -o-linear-gradient(top, #FFC31F, #FFA81D);
-     background-image: linear-gradient(to bottom, #FFC31F, #FFA81D);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa81d), to(#ff8e1d));
+    background-image: -webkit-linear-gradient(top, #ffa81d, #ff8e1d);
+    background-image: -moz-linear-gradient(top, #ffa81d, #ff8e1d);
+    background-image: -ms-linear-gradient(top, #ffa81d, #ff8e1d);
+    background-image: -o-linear-gradient(top, #ffa81d, #ff8e1d);
+    background-image: linear-gradient(to bottom, #ffa81d, #ff8e1d);
 }
 
 .management-button:hover {
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
-    background-color: #FFAF24;
 }
 
-/*  --- add new patient and  owner forms --- */
+/*  --- add new patient and owner forms --- */
 
 p.navbar-text {
     margin: 20px 0 0 0;
@@ -288,13 +289,8 @@ p.navbar-text {
 
 /*  ----  list table ----  */
 
-
 #pet-search-modal, #owner-search-modal {
     padding-top: 30px;
-}
-
-#pets-table, #owners-table {
-    padding: 20px;
 }
 
 .list-buttons {
@@ -329,19 +325,18 @@ p.navbar-text {
     color: #FFA81D;
 }
 
-
-
 /*  ------- media queries -------- */
 
-
-
-/*add styled 404 */
-/*add vendor prefixes*/
-/*meta tags*/
-/*add some interactivity to the page*/
-/*solve iframe API  */
-
-
-
-
+@media only screen and (max-width : 740px) {
+    #aboutUs, div.col-sm-4.footer-col {
+        text-align: center;
+    }
+    hr#home-page-about {
+        text-align: center;
+        margin-left: inherit;
+    }
+    .navbar .navbar-brand img {
+        padding-bottom: 10px;
+    }
+}
 

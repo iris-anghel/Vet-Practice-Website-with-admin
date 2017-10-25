@@ -29,7 +29,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" id="pet-love-logo" href="index.php">
-                    <img src="#" height="80" alt="logo">
+                    <img src="img/logo.png" height="70" alt="logo">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -43,8 +43,7 @@
                 </ul>
             </div>
         </div>
-    </nav><!--   end nav  -->
-
+     </nav><!--   /.nav  -->
 
      <div class="container">
         <div class="row">
@@ -83,7 +82,6 @@
          </div><!-- /.row -->
     </div><!-- /.container -->
 
-<!--   add space here -->
     <div class="container-fluid">
         <div class="row about-excerpt flex-center">
             <div class="col-sm-9">

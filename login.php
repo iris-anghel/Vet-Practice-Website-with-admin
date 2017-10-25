@@ -85,7 +85,7 @@ mysqli_close($conn);
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" id="pet-love-logo" href="index.php">
-                    <img src="#" height="80" alt="logo">
+                    <img src="img/logo.png" height="70" alt="logo">
                 </a>
             </div>
 
@@ -94,19 +94,18 @@ mysqli_close($conn);
                     <li><a href="index.php" >Acasa</a></li>
                     <li><a href="services.php">Servicii</a></li>
                     <li><a href="resources.php">Articole</a></li>
-                    <li><a href="#footer1">Contact</a></li>
-                    <li><a href="login.php" class="active-nav">Login <i class="fa fa-sign-in"></i></a></li>
+                    <li><a href="login.php" class="active-nav">Login</a></li>
                 </ul>
             </div>
         </div>
-    </nav><!--   end nav  -->
+    </nav><!--   /.nav  -->
 
     <div class="container-fluid">
 
-        <h1>Gestiune <strong>Pet Love Vet</strong></h1>
+        <h1 class="centered-single-items">Gestiune <strong>Pet Love Vet</strong></h1>
         <?php if(isset($loginError)) {echo $loginError;} ?>
         <div class="row">
-            <div class="col-md-6" id="sign-in-form-wrapper">
+            <div class="col-md-8 col-md-offset-2" id="sign-in-form-wrapper">
 
                 <div id="sign-in-form">
                     <form class="form " action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">

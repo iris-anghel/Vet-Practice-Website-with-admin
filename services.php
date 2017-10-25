@@ -30,7 +30,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" id="pet-love-logo" href="index.php">
-                    <img src="#" height="80" alt="logo">
+                    <img src="img/logo.png" height="70" alt="logo">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -82,20 +82,6 @@
                                 <p>Microciparea este un procedeu modern, permanent și neinvaziv de implantare subcutanată a unui microcip, în regiunea dorsală interscapulară a animalului dumneavoastră de companie.</p>
                                 <p>Microciparea reprezintă una dintre condițiile obligatorii pentru a putea călători în străinătate cu animalul dumneavoastră (este necesară și eliberarea unui pașaport internațional), dar este utilă și în cazul în care animalul de companie se pierde. Astfel, microciparea oferă o șansă în plus ca animalul dumneavoastră să se reîntoarcă acasă.</p>
                                 <p>Va reamintim ca microciparea câinilor este obligatorie în România începând cu data de 15 martie 2014.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><span class="icons"><img src="img/015-medical-history.png"></span>Carnet de sanatate online</a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p>Cabinetul veterinar Pet Love Vet ofera un serviciu inovator in Romania, si anume carnetul de sanatate online. Pacientii cabinetului vor primi un numar unic de inregistrare, cu care proprietarii se pot loga pe siteul nostru si vedea online toate datele medicale ale animalului de companie.</p>
-                                <p><a class="footer-link" href="login.php">Acceseaza carnetul de sanatate</a></p>
                             </div>
                         </div>
                     </div>
@@ -201,7 +187,7 @@
                         </div>
                     </div>
 
-                    <div class="panel panel-default">
+                    <div class="panel panel-default" id="panel-hrana">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse9"><span class="icons"><img src="img/014-dog-food.png"></span>Hrana si nutritie</a>
@@ -226,7 +212,7 @@
                                 <p>Ingrijirea aspectului exterior al cainilor este o parte esentiala a ingrijirii lor generale, la fel cum sunt si nutritia sau ingrijirea sanatatii. Perierea si spalarea animalelor mentin pielea si blana viguroase si cu aspect placut.</p>
                                 <p>Pentru unele rase de caini, ingrijirea profesionala este o necesitate, in vreme ce pentru altii, o baie lunara si o sedinta de periaj pe saptamana sunt suficiente.</p>
                                 <p>Pet Love Vet vine in intampinarea dumneavoastra si a animalutului preferat cu salonul de frizerie canina care asigura o ingrijire totala a aspectului catelului, ce presupune o tunsoare estetica, imbaiere, uscare, tratamente pentru piele si blana.</p>
-                                <p>Salonul Certovet ofera servicii de tuns, trimat, coafat, taiat unghii, curatat ochi si urechi, vidat glande, tratament si parfumpentru blanita. </p>
+                                <p>Oferim servicii de tuns, trimat, coafat, taiat unghii, curatat ochi si urechi, vidat glande, tratament si parfumpentru blanita. </p>
                             </div>
                         </div>
                     </div>
@@ -245,9 +231,9 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- /col-sm-12 -->
-        </div><!--    / services panel row  -->
-    </div><!--  end container -->
+            </div><!-- /.col-sm-12 -->
+        </div><!--    /.services panel row  -->
+    </div><!--  /.container -->
 
     <div class="container-fluid">
         <div class="row about-excerpt flex-center">

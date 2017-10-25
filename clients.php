@@ -47,7 +47,7 @@ include('header.php');
                     </div>
             </div><!-- /#owner search -->
             <div class="col-xs-12 col-sm-6">
-                <a href="add.php" type="button" class="btn management-button"><span class="glyphicon glyphicon-plus"></span> Adauga proprietar</a>
+                <a href="add.php" type="button" class="btn management-button"><span class="glyphicon glyphicon-plus"></span> Adauga</a>
             </div>
         </div>
 
@@ -84,8 +84,7 @@ include('header.php');
                         echo "<div class='alert alert-warning'>You have no clients!</div>";
                     }
 
-                    mysqli_close($conn);
- //Warning: mysqli_close(): Couldn't fetch mysqli
+//                    mysqli_close($conn);
 
                     ?>
 
@@ -93,7 +92,7 @@ include('header.php');
             </div>
         </div><!-- /.row -->
 
-    </div><!-- end .container-fluid -->
+    </div><!-- /.container-fluid -->
 
     <footer class="text-center">
         <hr>

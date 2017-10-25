@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 15, 2017 at 10:55 AM
+-- Generation Time: Oct 25, 2017 at 05:58 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
@@ -48,12 +48,7 @@ INSERT INTO `owner_info` (`id`, `owner_last_name`, `owner_first_name`, `owner_ad
 (7, 'Craciun', 'Marian', 'Str. Dragos Voda bl. 2 sc. C ap. 24', '0736998742', 'marian_c@gmail.com'),
 (8, 'Pop', 'Diana', 'Str. Iosif Vulcan bl3 scA ap8', '0758991442', 'dia_pop_78@yahoo.com'),
 (9, 'Iuga', 'David', 'Aleea Tihutei nr14', '0765445665', 'iugadavid34@gmail.com'),
-(10, 'Moldovan', 'Alin', 'Str Marasti nr3', '0745664124', 'moldo_alin44@gmail.com'),
-(11, 'Lupsa', 'Mirela', 'Str. Sucevei bl. 13 sc. D ap. 34', '0745874654', 'mirela_l41@yahoo.com'),
-(12, 'Borgovan', 'Iustin', 'Al. Margaretelor bl.1 sc.B ap.20', '0741255145', 'b.iustin33@gmail.com'),
-(13, 'Popescu', 'Ana-Maria', 'Bld. Decebal nr.24', '0745884124', 'ana.maria.pop21@gmail.com'),
-(14, 'Costescu', 'Cristina', 'Al Parcului nr. 4', '0751455654', 'cris_costescu@gmail.com'),
-(15, 'Crisan', 'Andrei', 'Str. Carpati nr. 6', '0752683333', 'andrei-crisan11@yahoo.com');
+(11, 'Lupsa', 'Mirela', 'Str. Sucevei bl. 13 sc. D ap. 34', '0745874654', 'mirela_l41@yahoo.com');
 
 -- --------------------------------------------------------
 
@@ -80,7 +75,11 @@ CREATE TABLE `pet_info` (
 --
 
 INSERT INTO `pet_info` (`id`, `pet_name`, `pet_dob`, `pet_species`, `gender`, `pet_breed`, `cip_data`, `steryl`, `pet_pass`, `id_owner`, `obs`) VALUES
-(6, 'test', '2014-02-05', 'd', 'masculin', 'd', 'd', 'da', 'd', 1, '');
+(6, 'Disco', '2016-04-02', 'caine', 'masculin', 'comuna', '6420099000281318', 'da', 'B8252186', 1, ''),
+(10, 'Tito', '2004-09-20', 'pisica', 'masculin', 'comuna', '', 'da', 'B2547896', 0, 'necesita 3 persoane la injectii'),
+(11, 'Mylo', '2013-09-05', 'caine', 'masculin', 'Bichon maltez', '5006609935687252', 'da', 'B7413896', 0, ''),
+(12, 'Cuba', '2011-02-05', 'caine', 'feminin', 'Amstaff', '6120099010281314', 'da', 'B1443886', 0, ''),
+(13, 'Lisa', '2009-04-05', 'caine', 'masculin', 'West Highland terrier', '5320198010281314', 'da', 'B7895584', 0, 'alergie la penicilina');
 
 -- --------------------------------------------------------
 
@@ -134,27 +133,17 @@ ALTER TABLE `vets`
 -- AUTO_INCREMENT for table `owner_info`
 --
 ALTER TABLE `owner_info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `pet_info`
 --
 ALTER TABLE `pet_info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `vets`
 --
 ALTER TABLE `vets`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
---
--- Constraints for dumped tables
---
-
---
--- Constraints for table `pet_info`
---
-ALTER TABLE `pet_info`
-  ADD CONSTRAINT `pets_ibfk_1` FOREIGN KEY (`id_owner`) REFERENCES `owner_info` (`id`);
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

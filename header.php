@@ -5,16 +5,20 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Gestiune Pet Love Vet</title>
         <link rel="icon" type="image/png" href="img/silhouette.png" />
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
         <link rel="stylesheet" type="text/css" href="style/style.css">
     </head>
 
@@ -30,7 +34,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="clients.php">Gestiune <strong>Pet Love Vet</strong></a>
+                <a class="navbar-brand" id="manage-brand" href="clients.php">Gestiune <strong>Pet Love Vet</strong></a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -60,13 +64,6 @@
                         </ul>
                     </li>
 
-
-<!--
-                    <li><a href="pets.php"><i class="fa fa-paw"></i> Animale de companie</a></li>
-                    <li><a href="add_p.php"><i class="fa fa-plus"></i> Adauga pacient</a></li>
-                    <li><a href="clients.php"><i class="fa fa-address-book"></i> Proprietari</a></li>
-                    <li><a href="add.php"><i class="fa fa-plus"></i> Adauga proprietar</a></li>
--->
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

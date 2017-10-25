@@ -1,11 +1,11 @@
 # vet-practise
-	This is a website for a veterinary practise (in Romanian).
+	This is a website for a veterinary practise (in Romanian) - for web dev course.
+    It is built using HTML, CSS, Bootstrap 3, JavaScript, PHP, MySQL, XAMPP.
+    
 	It includes a section for data management. 
-    After the vet is logged in, he can add, edit, delete and list his pacients and owners.
+    After the vet is logged in, he can list, search, add, edit, and delete his pacients and owners from the database.
 
     TODO:
-        - fix foreign key problem;
         - add other tables with prescriptions, treatments etc;
-        - add pagination when table results > 10;
-        - maybe add more validation;
-        - definitely add more styling and interactivity;
+        - add table pagination;
+        - add more styling and interactivity;

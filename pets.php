@@ -9,15 +9,7 @@ if( !$_SESSION['loggedInUser'] ) {
 
 include('includes/connection.php');
 
-// query & result
-                            // PROBLEM????
-        //is the problem here??? if the foreign key works, selecting * from pet_info is supposed to list the owner ID
-        //do I have to join the owner_info table???????
-
-//which one?
 $query = "SELECT * FROM pet_info";
-$query = "SELECT * FROM pet_info JOIN owner_info WHERE pet_info.id_owner = owner_info.id";
-
 
 $result = mysqli_query( $conn, $query );
 
@@ -45,7 +37,7 @@ include('header.php');
 
     <div class="container-fluid">
 
-        <h2>Lista pacienti</h2>
+        <h2>Lista animale de companie</h2>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                     <div class="form-group">
@@ -56,7 +48,7 @@ include('header.php');
                     </div>
             </div><!-- /#pet search -->
             <div class="col-xs-12 col-sm-6">
-                <a href="add_p.php" type="button" class="btn management-button"><span class="glyphicon glyphicon-plus"></span> Adauga pacient</a>
+                <a href="add_p.php" type="button" class="btn management-button"><span class="glyphicon glyphicon-plus"></span> Adauga</a>
             </div>
         </div>
 
@@ -74,7 +66,6 @@ include('header.php');
                         <th>Date microcip</th>
                         <th>Sterilizat</th>
                         <th>Carnet de sanantate</th>
-                        <th>ID stapan</th>
                         <th>Observatii</th>
                         <th>Editeaza</th>
                     </tr>
@@ -94,7 +85,6 @@ include('header.php');
                                     <td>" . $row['cip_data'] . "</td>
                                     <td>" . $row['steryl'] . "</td>
                                     <td>" . $row['pet_pass'] . "</td>
-                                    <td>" . $row['id_owner'] . "</td>
                                     <td>" . $row['obs'] . "</td>";
 
                             echo '<td><a href="edit_p.php?id=' . $row['id'] . '" type="button" class="btn btn-sm">
@@ -107,8 +97,7 @@ include('header.php');
                         echo "<div class='alert alert-warning'>Nu s-au gasit pacienti!</div>";
                     }
 
-                    mysqli_close($conn);
- //Warning: mysqli_close(): Couldn't fetch mysqli
+//                    mysqli_close($conn);
 
                     ?>
 
@@ -116,7 +105,7 @@ include('header.php');
             </div>
         </div><!-- /.row -->
 
-    </div><!-- end .container-fluid -->
+    </div><!-- /.container-fluid -->
 
     <footer class="text-center">
         <hr>

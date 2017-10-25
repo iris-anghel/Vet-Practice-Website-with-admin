@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" id="pet-love-logo" href="index.php">
-                    <img src="#" height="80" alt="logo">
+                    <img src="img/logo.png" height="70" alt="logo">
                 </a>
             </div>
 
@@ -62,9 +62,10 @@
                 <img class="center-block" src="img/010-pet-hotel-sign-with-a-dog-and-a-cat-under-a-roof-line.png" height="300">
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-6" id="aboutUs">
                 <h2>Despre noi</h2>
-                <hr class="black-hr" id="home-page-about">
+                <hr class="black-hr hidden-xs" id="home-page-about">
+                <hr class="black-hr visible-xs">
                 <p><em>Facem diferenta la Pet Love Vet</em></p>
                 <p>La Pet Love Vet credem ca fiecare posesor al unui animal de companie trebuie sa beneficieze de cele mai bune servicii. Veterinarii nostri sunt formati pentru a avea grija de orice animal de companie, de la pui la senior. Cabinetul veterinar Pet Love Vet este echipat pentru toate nevoile, de la medicina preventiva, nutritie, analize de laborator, la tratamente si interventii chirurgicale.</p>
                 <p><a class="btn btn-default allButtons" href="about.php#about-us" role="button">Mai multe &raquo;</a></p>
@@ -97,17 +98,18 @@
                 <p><a href="services.php#panel-tratamente">Detalii &raquo;</a></p>
             </div>
             <div class="col-md-3 col-sm-6 home-item">
-                <img class="img-circle" src="img/003-medical-8.png" alt="hands holding a heart" width="140" height="140">
-                <h4>Carnet de sanatate online</h4>
-                <p>Pet Love Vet va ofera toate informatiile medicale ale animalului dumneavoastra de companie direct pe site-ul nostru.</p>
-                <p><a href="login.php">Detalii &raquo;</a></p>
-            </div>
-            <div class="col-md-3 col-sm-6 home-item">
                 <img class="img-circle" src="img/hairdresser.png" alt="scissors and comb" width="140" height="140">
                 <h4>Toaletaj canin</h4>
                 <p>Animalele sunt mai fericite si mai sanatoase atunci cand sunt curate, tunse si aranjate. De aceea, folosim produsele cele mai bune de pe piata, pentru toate tipurile de blana si piele.</p>
                 <p><a href="services.php#panel-toaletaj">Detalii &raquo;</a></p>
             </div>
+            <div class="col-md-3 col-sm-6 home-item">
+                <img class="img-circle" src="img/bone.png" alt="dog food" width="140" height="140">
+                <h4>Hrana si petshop</h4>
+                <p>La Pet Love Vet oferim consiliere cu privire la alimentatia sanatoasa adaptata rasei, taliei, varstei, nivelului de activitate, precum si recompense si accesorii pentru animalele de companie care ne fac o vizita. </p>
+                <p><a href="services.php#panel-hrana">Detalii &raquo;</a></p>
+            </div>
+
         </div>
 
         <div class="row centered-single-items">
@@ -126,21 +128,21 @@
 
         <div class="row home-page-row team-row">
             <div class="col-sm-4 home-item">
-                <img class="img-circle" src="img/007-animal.png" alt="vet photo" width="140" height="140">
+                <img class="img-circle" src="img/deni-crop.jpg" alt="vet photo" width="140" height="140">
                 <h4>Denisa Soncodi</h4>
                 <hr class="orange-hr">
                 <p>medic veterinar</p>
                 <p><a class="footer-link" href="about.php#featurette-denisa">Detalii &raquo;</a></p>
             </div>
             <div class="col-sm-4 home-item">
-                <img class="img-circle" src="img/007-animal.png" alt="vet photo" width="140" height="140">
+                <img class="img-circle" src="img/paula-crop.jpg" alt="vet photo" width="140" height="140">
                 <h4>Paula Pop</h4>
                 <hr class="orange-hr">
                 <p>medic veterinar</p>
                 <p><a class="footer-link" href="about.php#featurette-paula">Detalii &raquo;</a></p>
             </div>
             <div class="col-sm-4 home-item">
-                <img class="img-circle" src="img/007-animal.png" alt="vet photo" width="140" height="140">
+                <img class="img-circle" src="img/k-crop.jpg" alt="vet photo" width="140" height="140">
                 <h4>Andreea Lup</h4>
                 <hr class="orange-hr">
                 <p>groomer</p>

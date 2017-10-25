@@ -30,7 +30,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" id="pet-love-logo" href="index.php">
-                    <img src="#" height="80" alt="logo">
+                    <img src="img/logo.png" height="70" alt="logo">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -55,7 +55,6 @@
                         <hr class="orange-hr">
                     </div>
                     <div>
-<!--                        <img src="img/stethoscope.png">-->
                         <p>Cabinetul veterinar Pet Love Vet a fost fondat in anul 2016 de catre medicul veterinar Denisa Soncodi, care si-a dorit sa creeze o echipa tanara, zambitoare si profesionista, care sa raspunda exigentelor proprietarilor de animale.
                         Intreaga echipa isi propune sa ofere servicii medicale de calitate, compasiune pentru pacientii aflati in suferinta, dar si respect si intelegere pentru proprietarii de animale, prin stabilirea unei relatii stranse de parteneriat si consultare.</p>
                         <p>Pet Love Vet se adreseaza tuturor iubitorilor de animale, oferind o gama completa de servicii medical-veterinare: microcipare, vaccinari, deparazitari, analize de laborator, tratamente, stomatologie, chirurgie, cat si consultanta nutritionala si privind stilul de viata al animalelor, totul inglobat intr-o atmosfera de prietenie si respect.</p>
@@ -77,10 +76,10 @@
 
         <hr class="orange-hr"><!-- start featurettes -->
         <div class="row featurette" id="featurette-denisa">
-            <div class="col-sm-2">
-                <img class="featurette-image" src="img/003-medical-8.png">
+            <div class="col-sm-3">
+                <img class="featurette-image img-circle img-responsive" width="250px" src="img/deni-crop.jpg">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-9">
                 <h2>Denisa Soncodi</h2>
                 <p>medic veterinar</p>
                 <p>absolventa Facultatea de Medicina Veterinara Cluj-Napoca - 2013</p>
@@ -89,10 +88,10 @@
         </div>
         <hr class="featurette-divider">
         <div class="row featurette" id="featurette-paula">
-            <div class="col-sm-2">
-                <img class="featurette-image" src="img/003-medical-8.png">
+            <div class="col-sm-3">
+                <img class="featurette-image img-circle img-responsive" width="250px" src="img/paula-crop.jpg">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-9">
                 <h2>Paula Pop</h2>
                 <p>medic veterinar</p>
                 <p>absolventa Facultatea de Medicina Veterinara Cluj-Napoca - 2014</p>
@@ -101,10 +100,10 @@
         </div>
         <hr class="featurette-divider">
         <div class="row featurette" id="featurette-andreea">
-            <div class="col-sm-2">
-                <img class="featurette-image" src="img/003-medical-8.png">
+            <div class="col-sm-3">
+                <img class="featurette-image img-circle img-responsive" width="250px" src="img/k-crop.jpg">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-9">
                 <h2>Andreea Lup</h2>
                 <p>groomer</p>
                 <blockquote>Totul a inceput ca o necesitate, dar in scurt timp s-a transformat in pasiune si astazi, dupa 3 ani de experienta, aranjatul cateilor a devenit o arta. De la tunsori pentru expozitiile canine, la tunsori dupa cerintele clientului, toti cateii beneficiaza de o mare atentie si rabdare. Dorinta de a evolua si de a forma o echipa unita m-a adus la Pet Love Vet, locul unde am gasit cei mai implicati specialisti.</blockquote>

@@ -91,7 +91,7 @@ include('header.php');
             </div>
         </form>
 
-    </div><!-- end .container-fluid -->
+    </div><!-- /.container-fluid -->
 
     <footer class="text-center">
         <hr>

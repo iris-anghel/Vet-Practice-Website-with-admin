@@ -2,7 +2,7 @@
         <div class="row footer1">
             <div class="col-sm-4 footer-col">
                 <p><a class="footer-link" href="index.php">
-                    <img src="#" height="80" alt="logo">
+                    <img src="img/logo.png" height="80" alt="logo">
                 </a></p>
                 <p>Prietenul tau in grija noastra</p>
                 <p>Urmariti-ne pe: <a href="https://www.facebook.com/cabinetveterinarpetlovevet"><img src="img/facebook.png"></a></p>

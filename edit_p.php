@@ -16,7 +16,6 @@ include('includes/functions.php');
 
 // query the database with client ID
 $query = "SELECT * FROM pet_info WHERE id='$petID'";
-// "SELECT * FROM pet_info JOIN owner_info WHERE pet_info.owner_id = owner_info.owner_id"; ??????
 
 $result = mysqli_query( $conn, $query );
 

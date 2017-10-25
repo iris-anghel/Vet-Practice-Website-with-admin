@@ -33,12 +33,6 @@ if( isset( $_POST['add_p'] ) ) {
         // create query
         $query = "INSERT INTO pet_info (id, pet_name, pet_dob, pet_species, gender, pet_breed, cip_data, steryl, pet_pass, obs) VALUES (NULL, '$petName', '$petDob', '$petSpecies', '$gender', '$petBreed', '$cipData', '$steryl', '$passport', '$obs')";
 
-                                // PROBLEM HERE  ????
-
-//  owner id is not part of the form .. and it is not inserted into the db because of the foreign key constraint
-// so id_owner must be what??? last_insert_id()?
-  // $id_owner = ($_GET["something"]); ?????????????????
-
         $result = mysqli_query( $conn, $query );
 
         if( $result ) {
@@ -122,7 +116,7 @@ include('header.php');
             </div>
         </form>
 
-    </div><!-- end .container-fluid -->
+    </div><!-- /.container-fluid -->
 
     <footer class="text-center">
         <hr>
