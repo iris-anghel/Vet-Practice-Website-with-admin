@@ -25,7 +25,6 @@ $(document).ready(function(){
         }, 1000, 'linear');
     });
 
-
     //search owner form
     var $rows_o = $('#owner_table tbody tr');
     $('#owner_search').keyup(function () {
@@ -48,32 +47,5 @@ $(document).ready(function(){
     }).hide();
     });
 
-    //test ajax
-//    $('#add-owner').on('click', function(event) {
-//        event.preventDefault();
-//        submitOwner();
-//    });
-//
-//    function submitOwner() {
-//        var lName = $('#ownerLastName').val();
-//        var fName = $('#ownerFirstName').val();
-//        var oAdress = $('#ownerAddress').val();
-//        var oPhone = $('#ownerownerPhone').val();
-//        var oEmail = $('#ownerEmail').val();
-//
-//        $.ajax({
-//            url: "date/process_owner_form.php",
-//            method: "POST",
-//            data: {"owner_last_name=" + lName + "&owner_first_name=" + fName + "&owner_address=" + oAdress + "&owner_phone=" + oPhone + "&owner_email=" + oEmail},
-//            success: function(data) {
-//               $('#modal1').modal('hide');
-//                $('#owners-table').html(data);
-//            }
-//        });
-//    }
-
 });
-
-
-
 
