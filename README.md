@@ -12,4 +12,7 @@
         
     Here you can see some screenshots of the admin part
     
+![petlovevet-add](https://user-images.githubusercontent.com/18640359/34643226-4752a40c-f329-11e7-80e4-4f3635630168.png)
+![petlovevet-addpet](https://user-images.githubusercontent.com/18640359/34643227-477666f8-f329-11e7-8df3-a087935e1d9e.PNG)
+![petlovevet-admin](https://user-images.githubusercontent.com/18640359/34643228-479e6afe-f329-11e7-9170-02094382896d.PNG)
     
