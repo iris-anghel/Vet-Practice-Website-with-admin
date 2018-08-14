@@ -128,21 +128,21 @@
 
         <div class="row home-page-row team-row">
             <div class="col-sm-4 home-item">
-                <img class="img-circle" src="img/deni-crop.jpg" alt="vet photo" width="140" height="140">
-                <h4>Denisa Soncodi</h4>
+                <img class="img-circle" src="http://via.placeholder.com/250x250" alt="vet photo" width="140" height="140">
+                <h4>Denisa Pop</h4>
                 <hr class="orange-hr">
                 <p>medic veterinar</p>
                 <p><a class="footer-link" href="about.php#featurette-denisa">Detalii &raquo;</a></p>
             </div>
             <div class="col-sm-4 home-item">
-                <img class="img-circle" src="img/paula-crop.jpg" alt="vet photo" width="140" height="140">
+                <img class="img-circle" src="http://via.placeholder.com/250x250" alt="vet photo" width="140" height="140">
                 <h4>Paula Pop</h4>
                 <hr class="orange-hr">
                 <p>medic veterinar</p>
                 <p><a class="footer-link" href="about.php#featurette-paula">Detalii &raquo;</a></p>
             </div>
             <div class="col-sm-4 home-item">
-                <img class="img-circle" src="img/k-crop.jpg" alt="vet photo" width="140" height="140">
+                <img class="img-circle" src="http://via.placeholder.com/250x250" alt="vet photo" width="140" height="140">
                 <h4>Andreea Lup</h4>
                 <hr class="orange-hr">
                 <p>groomer</p>

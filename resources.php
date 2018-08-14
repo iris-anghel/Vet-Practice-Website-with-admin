@@ -59,7 +59,7 @@
                 <h2>
                     <a class="footer-link" href="blogpost1.php">Sterilizarea si castrarea</a>
                 </h2>
-                <p class="lead">de Denisa Soncodi</p>
+                <p class="lead">de Denisa Pop</p>
                 <p><span class="glyphicon glyphicon-time"></span> Postat in Septembrie 28, 2017 la 10:00 AM</p>
                 <hr>
                 <img class="img-responsive img-hover" src="img/cutePuppies.jpg" alt="puppies">

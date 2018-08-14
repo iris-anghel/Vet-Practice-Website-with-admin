@@ -55,7 +55,7 @@
                         <hr class="orange-hr">
                     </div>
                     <div>
-                        <p>Cabinetul veterinar Pet Love Vet a fost fondat in anul 2016 de catre medicul veterinar Denisa Soncodi, care si-a dorit sa creeze o echipa tanara, zambitoare si profesionista, care sa raspunda exigentelor proprietarilor de animale.
+                        <p>Cabinetul veterinar Pet Love Vet a fost fondat in anul 2016 de catre medicul veterinar Denisa Pop, care si-a dorit sa creeze o echipa tanara, zambitoare si profesionista, care sa raspunda exigentelor proprietarilor de animale.
                         Intreaga echipa isi propune sa ofere servicii medicale de calitate, compasiune pentru pacientii aflati in suferinta, dar si respect si intelegere pentru proprietarii de animale, prin stabilirea unei relatii stranse de parteneriat si consultare.</p>
                         <p>Pet Love Vet se adreseaza tuturor iubitorilor de animale, oferind o gama completa de servicii medical-veterinare: microcipare, vaccinari, deparazitari, analize de laborator, tratamente, stomatologie, chirurgie, cat si consultanta nutritionala si privind stilul de viata al animalelor, totul inglobat intr-o atmosfera de prietenie si respect.</p>
                         <p>Punem accent pe calitate in tot ceea ce facem si folosim cel mai nou instrumentar si aparatura moderna. Suntem atenti si exigenti in respectarea normelor de igiena si pastrarea unui mediu steril in sala de consultatie si sala de operatie.</p>
@@ -77,10 +77,10 @@
         <hr class="orange-hr"><!-- start featurettes -->
         <div class="row featurette" id="featurette-denisa">
             <div class="col-sm-3">
-                <img class="featurette-image img-circle img-responsive" width="250px" src="img/deni-crop.jpg">
+                <img class="featurette-image img-circle img-responsive" width="250px" src="http://via.placeholder.com/250x250">
             </div>
             <div class="col-sm-9">
-                <h2>Denisa Soncodi</h2>
+                <h2>Denisa Pop</h2>
                 <p>medic veterinar</p>
                 <p>absolventa Facultatea de Medicina Veterinara Cluj-Napoca - 2013</p>
                 <blockquote>Am ales sa practic medicina veterinara si sa  din pasiune si din dorinta de a face un lucru deosebit si util pentru societate. In cei peste 6 ani de experienta am avut parte de recompense deosebite: multumirea faptului ca am ajutat atat animalele, cat si stapanii lor, pentru care acestea inseamna foarte mult. Medicina e o lectie continua, motiv pentru care incerc sa invat mereu, atat din carti, cat si din practica de zi cu zi.</blockquote>
@@ -89,7 +89,7 @@
         <hr class="featurette-divider">
         <div class="row featurette" id="featurette-paula">
             <div class="col-sm-3">
-                <img class="featurette-image img-circle img-responsive" width="250px" src="img/paula-crop.jpg">
+                <img class="featurette-image img-circle img-responsive" width="250px" src="http://via.placeholder.com/250x250">
             </div>
             <div class="col-sm-9">
                 <h2>Paula Pop</h2>
@@ -101,7 +101,7 @@
         <hr class="featurette-divider">
         <div class="row featurette" id="featurette-andreea">
             <div class="col-sm-3">
-                <img class="featurette-image img-circle img-responsive" width="250px" src="img/k-crop.jpg">
+                <img class="featurette-image img-circle img-responsive" width="250px" src="http://via.placeholder.com/250x250">
             </div>
             <div class="col-sm-9">
                 <h2>Andreea Lup</h2>

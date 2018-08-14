@@ -49,7 +49,7 @@
          <div class="row">
             <div class="col-sm-12">
                 <h1 class="page-header">Sterilizarea si castrarea
-                    <small>de Denisa Soncodi</small>
+                    <small>de Denisa Pop</small>
                 </h1>
             </div>
         </div><!-- /.row -->
